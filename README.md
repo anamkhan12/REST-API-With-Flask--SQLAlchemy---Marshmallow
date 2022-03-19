@@ -7,7 +7,7 @@ $ pipenv shell
 # Install dependencies
 $ pipenv install
 
-# Create DB
+# Create DB 
 $ python
 >> from app import db
 >> db.create_all()
