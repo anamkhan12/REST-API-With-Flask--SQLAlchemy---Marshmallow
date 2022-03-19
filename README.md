@@ -9,9 +9,9 @@ $ pipenv install
 
 # Create DB 
 python
-from app import db
-db.create_all()
-exit()
+>> from app import db
+>> db.create_all()
+>> exit()
 
-# Run Server (http://localhst:5000)
+# Run Server (http://localhost:5000)
 python app.py
