@@ -8,10 +8,19 @@ $ pipenv shell
 $ pipenv install
 
 # Create DB 
-python
+$ python
 >> from app import db
 >> db.create_all()
 >> exit()
 
 # Run Server (http://localhost:5000)
-python app.py
+$ python app.py
+
+## Endpoints
+
+* GET     /all_details
+* GET     /details/:id
+* POST    /add_detail
+* PUT     /update_details/:id
+* DELETE  /delete_details/:id
+
